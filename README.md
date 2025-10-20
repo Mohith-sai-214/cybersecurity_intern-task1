@@ -12,7 +12,7 @@ Perform local network port scan using Nmap and observe packet behavior with Wire
 
 ## Short steps I followed
 1. Found local IP range using ipconfig/ifconfig.
-2. Ran: nmap -sS 192.168.1.0/24 -oN nmap_scan_results.txt
+2. Ran: nmap -sS 192.168.1.0/24
 3. Captured packets in Wireshark while scanning; saved as wireshark_capture.pcapng.
 4. Added files and README to GitHub repo and published.
 
